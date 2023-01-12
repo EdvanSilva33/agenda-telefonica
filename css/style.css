@@ -43,6 +43,9 @@ header {
   height: 30px;
   padding: 5px;
 }
+.inserir input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button{
+    appearance: none;
+}
 .inserir button {
   background-color: rgb(139, 62, 228);
   color: #fff;

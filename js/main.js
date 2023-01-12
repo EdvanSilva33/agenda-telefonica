@@ -15,7 +15,7 @@ form.addEventListener("submit", (e) => {
 
 function inputs() {
   if (nome.includes(inputName.value)) {
-    alert(`Este nome: ${inputName.value} ja foi cadastrado já foi inserida`);
+    alert(`Este nome: ${inputName.value} ja foi cadastrado já foi inserida!` );
   } else {
     nome.push(inputName.value);
     numero.push(inputTelefone.value);
